@@ -358,6 +358,14 @@ body{
 	color: white;
 	margin-left: 50px;
 }
+#hint{
+	font-size: 15px;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-weight: 300;
+	color: white;
+	margin: 0;
+	margin-left: 50px;
+}
 @keyframes mercuryRevolution{
 	from{
 		-ms-transform: translate(-50%, -50%) rotate(45deg);
@@ -536,4 +544,23 @@ body{
   	}
   100% {
   		background-position: 200px 0;  }
+}
+
+
+@media only screen and (max-width: 600px) {
+	#main{
+		position: absolute;
+		transform: scale(0.4);
+		margin:auto;
+		top: -50px;
+	}
+	#infoCont{
+		padding-top: 120px;
+	}
+	#yearsCount{
+		margin-top: 30px;
+	}
+	#tip{
+		margin-top: 110px;
+	}
 }

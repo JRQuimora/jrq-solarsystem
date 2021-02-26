@@ -220,3 +220,17 @@ function sun(){
 	
 }
 
+function hide(){
+	document.getElementById('infoCont').style = "width: 0px;";
+		document.getElementById('sun').style = "width: 60px; height: 60px";
+		document.getElementById('mercury').style = "width: 50px; height: 50px;";
+		document.getElementById('venus').style = "width: 50px; height: 50px;";
+		document.getElementById('earth').style = "width: 50px; height: 50px;";
+		document.getElementById('mars').style = "width: 50px; height: 50px;";
+		document.getElementById('jupiter').style = "width: 50px; height: 50px;";
+		document.getElementById('saturn').style = "width: 50px; height: 50px;";
+		document.getElementById('uranus').style = "width: 50px; height: 50px; top: -25px";
+		document.getElementById('neptune').style = "width: 50px; height: 50px; top: -25px";
+		document.getElementById('saturnRing').style = "width: 50px; height: 30px; top: -5px; left:-20px;";
+}
+
