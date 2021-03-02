@@ -10,43 +10,58 @@
 </head>
 <body>
 	<div id="infoCont" onclick="hide()">
-		<img id="planetImg">
+		<img id="planetImg" src="http://assets.stickpng.com/images/580b585b2edbce24c47b2709.png">
 		<p id="hint">Click anywhere to hide</p>
 		<span id="planetName">Mercury</span><br>
 		<p id="planetDescription">Mercury is the closest planet to the sun. As such, it circles the sun faster than all the other planets, which is why Romans named it after their swift-footed messenger god. The Sumerians also knew of Mercury since at least 5,000 years ago. It was often associated with Nabu, the god of writing.</p><br>
 	</div>
-	<span id="yearsCount"></span>
-	<span id="tip">Click on planet to know more about it.</span>
-	<div id="main">
-		<div id="neptuneOrbit">
-			<div onclick="neptune()" id="neptune"></div>
-		</div>
-		<div id="uranusOrbit">
-			<div onclick="uranus()" id="uranus"></div>
-		</div>
-		<div id="saturnOrbit">
-			<div onclick="saturn()" id="saturn">
-				<div id="saturnRing"></div>
-			</div>
-			
-		</div>
-		<div id="jupiterOrbit">
-			<div onclick="jupiter()" id="jupiter"></div>
-		</div>
-		<div id="marsOrbit">
-			<div onclick="mars()" id="mars"></div>
-		</div>
-		<div id="earthOrbit">
-			<div onclick="earth()" id="earth"></div>
-		</div>
-		<div id="venusOrbit">
-			<div onclick="venus()" id="venus"></div>
-		</div>
-		<div id="mercuryOrbit">
-			<div onclick="mercury()" id="mercury"></div>
-		</div>
-		<div onclick="sun()" id="sun"></div>
+	<div id="yearsCountCont">
+		<span id="yearsCount"></span><br>
+		<span id="tip">Click on planet to know more about it.</span>
 	</div>
+	
+	<div id="mainWrapper">
+		<div id="main">
+			<div id="neptuneOrbit">
+				<div onclick="neptune()" id="neptune"></div>
+				<div onclick="neptune()" id="neptuneLbl">Neptune</div>
+			</div>
+			<div id="uranusOrbit">
+				<div onclick="uranus()" id="uranus"></div>
+				<div onclick="uranus()" id="uranusLbl">Uranus</div>
+			</div>
+			<div id="saturnOrbit">
+				<div onclick="saturn()" id="saturn">
+					<div id="saturnRing"></div>
+				</div>
+				<div onclick="saturn()" id="saturnLbl">Saturn</div>
+			</div>
+			<div id="jupiterOrbit">
+				<div onclick="jupiter()" id="jupiter"></div>
+				<div onclick="jupiter()" id="jupiterLbl">Jupiter</div>
+			</div>
+			<div id="marsOrbit">
+				<div onclick="mars()" id="mars"></div>
+				<div onclick="mars()" id="marsLbl">Mars</div>
+			</div>
+			<div id="earthOrbit">
+				<div onclick="earth()" id="earth"></div>
+				<div onclick="earth()" id="earthLbl">Earth</div>
+			</div>
+			<div id="venusOrbit">
+				<div onclick="venus()" id="venus"></div>
+				<div onclick="venus()" id="venusLbl">venus</div>
+			</div>
+			<div id="mercuryOrbit">
+				<div onclick="mercury()" id="mercury"></div>
+				<div onclick="mercury()" id="mercuryLbl">Mercury</div>
+			</div>
+			<div onclick="sun()" id="sun">
+				<div onclick="sun()" id="sunLbl">Sun</div>
+			</div>
+		</div>
+	</div>
+	
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
